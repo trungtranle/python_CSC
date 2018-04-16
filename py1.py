@@ -19,3 +19,20 @@ else:
     mx = mx2
 
 print('Max = ', mx)         
+
+if a <= b:
+    mn1 = a 
+else:
+    mn1 = b
+
+if c <= d:
+    mn2 = c
+else:
+    mn2 = d
+
+if mn1 <= mn2:
+    mn = mn1
+else: 
+    mn = mn2
+
+print('Min = ', mn)         
