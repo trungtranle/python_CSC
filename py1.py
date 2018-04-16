@@ -1,7 +1,7 @@
-a = eval(input('Nhập a'))
-b = eval(input('Nhập c'))
-c = eval(input('Nhập c'))
-d = eval(input('Nhập d'))
+a = eval(input('Nhập a: '))
+b = eval(input('Nhập b: '))
+c = eval(input('Nhập c: '))
+d = eval(input('Nhập d: '))
 
 if a >= b:
     mx1 = a 
