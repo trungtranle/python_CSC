@@ -36,3 +36,9 @@ else:
     mn = mn2
 
 print('Min = ', mn)         
+
+x = eval(input('Tiếp: 0 = No, 1 = Yes: '))
+
+
+
+
