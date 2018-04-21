@@ -18,5 +18,5 @@ if n % 2 != 0:
             giaithua2 *= i
             giaithua2_res += str(i) + ' x '
 
-print (giaithua_res[:(len(giaithua_res)-2)],'=', giaithua)
-print (giaithua2_res[:(len(giaithua2_res)-2)],'=', giaithua2)
+print (giaithua_res[:(len(giaithua_res)-3)],'=', giaithua)
+print (giaithua2_res[:(len(giaithua2_res)-3)],'=', giaithua2)
