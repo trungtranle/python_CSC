@@ -14,6 +14,11 @@ tren_31_7 = 13800
 cho = 7500
 
 loai = eval(input('Loại xe (chỉ nhập 4 hoặc 7): '))
+
+while loai != 4 and loai != 7:
+    print('Loại xe không đúng')
+    loai = eval(input('Loại xe (chỉ nhập 4 hoặc 7): '))
+
 km = eval(input('Số km di chuyển: '))
 time = eval(input('Thời gian chờ (làm tròn theo phút): '))
 
