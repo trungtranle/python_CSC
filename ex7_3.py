@@ -10,12 +10,14 @@ for i in range (1,count+1):
 '''
 for i in range (1, count + 1):
     list1.append(random.randrange(10,30))
-print(list1)
+print (list1)
 '''
 for i in range (1, count + 1):
-    x = random.randrange(10,30)
+    x = 
     while x % 5 == 0:
         list1.append(x)
+        x = random.randrange(10,30)
+print (list1)
 
 list2 = []
 for item in list1:
