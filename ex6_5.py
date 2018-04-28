@@ -20,4 +20,5 @@ else:
     elif delta == 0:
         print ('Phương trình có nghiệm kép: x1 = x2 = ', -b/2*a)
     else:
-        print ('Phương trình có hai nghiệm x1 = ',(-b + math.sqrt(delta)/(2*a)),'x2 = ',(-b - math.sqrt(delta)/(2*a)))
+        print ('Phương trình có hai nghiệm x1 = ',((-b + math.sqrt(delta))/(2*a)),\
+        'x2 = ',((-b - math.sqrt(delta))/(2*a)))
