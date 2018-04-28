@@ -7,6 +7,7 @@ a = eval(input('a= '))
 b = eval(input('b= '))
 c = eval(input('c= '))
 d = eval(input('d= '))
+'''
 if a >= b: 
     mx = a
 else:
@@ -28,3 +29,6 @@ if mn >= c:
 if mn >= d:
     mn = d
 print('min=', mn)
+'''
+print ('max =', max (a,b,c,d))
+print ('min =', min (a,b,c,d))
