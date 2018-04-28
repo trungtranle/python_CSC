@@ -1,9 +1,9 @@
 from datetime import datetime
 import calendar
 
-day = eval (input ('Nhập ngày: '))
+day = int (input ('Nhập ngày: '))
 month = int (input ('Nhập tháng: '))
-year = eval (input ('Nhập năm: '))
+year = int (input ('Nhập năm: '))
 
 date1 = datetime (year, month, day)
 print ('Ngày tháng năm: ', date1.strftime('%d - %m - %Y'))
