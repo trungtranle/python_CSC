@@ -1,13 +1,13 @@
 from datetime import datetime
 import calendar
 
-day = int (input ('Nhập ngày: '))
-month = int (input ('Nhập tháng: '))
-year = int (input ('Nhập năm: '))
+day = int(input('Nhập ngày: '))
+month = int(input('Nhập tháng: '))
+year = int(input('Nhập năm: '))
 
-date1 = datetime (year, month, day)
-print ('Ngày tháng năm: ', date1.strftime('%d - %m - %Y'))
-date2 = calendar.weekday (year, month, day)
+date1 = datetime(year, month, day)
+print('Ngày tháng năm: ', date1.strftime('%d - %m - %Y'))
+date2 = calendar.weekday(year, month, day)
 
 if date2 == 0:
     date3 = 'Thứ hai'
@@ -24,7 +24,7 @@ elif date2 == 5:
 else:
     date3 = 'Chủ nhật'
 
-print (date1.strftime('%d - %m - %Y'),'là', date3)
+print(date1.strftime('%d - %m - %Y'),'là', date3)
 
 if calendar.isleap(year) == True:
     print(year, 'là năm nhuận')
