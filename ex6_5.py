@@ -1,10 +1,10 @@
+import math
+
 a = eval(input('a = '))
 b = eval(input('b = '))
 c = eval(input('c = '))
 
 delta = 0
-
-import math
 
 if a == 0: 
     if b == 0 and c != 0:

@@ -8,7 +8,7 @@ year = int(input('Nhập năm: '))
 date1 = datetime(year, month, day)
 print('Ngày tháng năm: ', date1.strftime('%d - %m - %Y'))
 date2 = calendar.weekday(year, month, day)
-
+'''
 if date2 == 0:
     date3 = 'Thứ hai'
 elif date2 == 1:
@@ -23,8 +23,9 @@ elif date2 == 5:
     date3 = 'Thứ bảy'
 else:
     date3 = 'Chủ nhật'
-
-print(date1.strftime('%d - %m - %Y'),'là', date3)
+'''
+weekd = ('Thứ hai','Thứ ba','Thứ tư', 'Thứ năm', 'Thứ sáu', 'Thứ bảy', 'Chủ nhật')
+print(date1.strftime('%d - %m - %Y'),'là', weekd[date2])
 
 if calendar.isleap(year) == True:
     print(year, 'là năm nhuận')

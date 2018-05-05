@@ -1,8 +1,16 @@
 import random
 
+def nhap_gia_tri_set (set_input):
+    i = 1
+    while i == 1:
+        set1.add(int(input('Nhập giá trị thứ %d cho element trong set: ' %(len(set_input)+1))))
+        i = int(input('Tiếp tục nhập giá trị cho set? Yes: 1, No: khác 1 '))
+    return set_input
+
 set1 = set()
 set2 = set()
 
+'''
 i, j = 1, 1
 
 while i == 1:
@@ -12,6 +20,10 @@ while i == 1:
 while j == 1:
     set2.add(int(input('Nhập giá trị thứ %d cho element trong set 2: ' %(len(set2)+1))))
     j = int(input('Tiếp tục nhập giá trị cho set 2? Yes: 1, No: khác 1 '))
+'''
+
+nhap_gia_tri_set(set1)
+nhap_gia_tri_set(set2)
 
 print('Set 1:', set1)
 print('Set 2:', set2)

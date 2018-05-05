@@ -1,3 +1,5 @@
+#from ex7_7 import xoa_dic
+
 dic = {'cat' : 'mòe', 'dog' : 'Đức', 'ant' : 'kiến', 'bear' : 'gấu', 'spider' : 'nhện'}
 
 cont = 1 
@@ -20,6 +22,7 @@ while cont == 1:
         print(key, '\t', dic.get(key))
     if task == 4:
         de = input('Nhập từ cần xóa: \t')
+        '''
         if de in dic.keys():
             i = int(input('Bạn có thực sự muốn xóa? Yes = 1, No = 0 \t'))
             if i == 1: 
@@ -27,4 +30,6 @@ while cont == 1:
                 print ('Đã xóa từ', de)
         else: 
             print(de, 'không có trong từ điển')
+        '''
+        xoa_dic (dic, de)
     cont = int(input('Tiếp tục? Tiếp: 1; Không tiếp: 0 \t'))
