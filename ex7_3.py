@@ -1,12 +1,14 @@
 import random
 from functools import reduce 
-
+'''
 def prime_check (x):
     count = 0
     for i in range(1,x+1):
         if x % i == 0:
             count = count + 1
     return count == 2
+'''
+from ex5_4_so_nguyen_to import prime_check
 
 def average_and_print_if_not_null (list_original, criteria):
     if len(list_original) > 0:
