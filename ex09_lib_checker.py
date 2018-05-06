@@ -17,9 +17,10 @@ def checkerboard_create(size):
         checker = checker + '\n'
     return checker
 
+
 def checker_matrix_create(size):
     checker = []
-    for i in range (0, size):
+    for i in range(0, size):
         checker_i = []
         if i % 2:
             for j in range(0, size):
@@ -35,19 +36,20 @@ def checker_matrix_create(size):
                     checker_i.append('|#|')
         checker.append(checker_i)
     return checker
-        
+
+
 def checker_matrix_print(matrix):
     checker = ''
-    for i in range (0, len(matrix)):
-        for j in range (0, len(matrix)):
+    for i in range(0, len(matrix)):
+        for j in range(0, len(matrix)):
             checker += matrix[i][j]
         checker += '\n'
-    print (checker)
+    print(checker)
+
 
 checker = checker_matrix_create(20)
-checker_matrix_print (checker)
-       
+checker_matrix_print(checker)
+
 
 check = checkerboard_create(20)
 print(check)
-
