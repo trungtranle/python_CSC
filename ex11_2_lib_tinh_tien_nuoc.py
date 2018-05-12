@@ -13,13 +13,13 @@ def tinh_tien_nuoc_sinh_hoat(usage):
     threshold_2 = 6 * so_nguoi
     if usage <= threshold_1:
         thanh_tien = don_gia_sinh_hoat['muc_1'] * usage
-        print('Mức 1: đến', threshold_1, '\t Sử dụng:', usage, 'm3')
+        print('Mức 1: đến', threshold_1, 'm3 \t Sử dụng:', usage, 'm3')
     elif usage <= threshold_2:
         thanh_tien = don_gia_sinh_hoat['muc_1'] * threshold_1 + \
             don_gia_sinh_hoat['muc_2'] * (usage - threshold_1)
-        print('Mức 1: đến', threshold_1, '\t Sử dụng:', threshold_1, 'm3')
+        print('Mức 1: đến', threshold_1, 'm3 \6 Sử dụng:', threshold_1, 'm3')
         print('Mức 2: trên', threshold_1, 'đến', threshold_2,
-              '\t Sử dụng:', (usage - threshold_1), 'm3')
+              'm3 \t Sử dụng:', (usage - threshold_1), 'm3')
     else:
         thanh_tien = don_gia_sinh_hoat['muc_1'] * threshold_1 + don_gia_sinh_hoat['muc_2'] * (
             threshold_2 - threshold_1) + don_gia_sinh_hoat['muc_3'] * (usage - threshold_2)
