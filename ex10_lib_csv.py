@@ -22,3 +22,9 @@ def write_list_to_csv(filename, list):
     for item in list:
         csv.writer(f).writerow(item)
     f.close
+
+
+def write_one_row_to_csv(filename, content):
+    f = open(filename, encoding = 'utf-8')
+    csv.writer(f).writerow(content)
+    f.close
