@@ -42,3 +42,4 @@ x = eval(input('Tiếp: 0 = No, 1 = Yes: '))
 '''
 This is a comment 
 '''
+i = eval(input('a = '))
