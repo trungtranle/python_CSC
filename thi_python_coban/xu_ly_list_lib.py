@@ -11,7 +11,7 @@ def in_tung_phan_tu(list_1):
     print('Giá trị : Chiều dài phần tử')
     for item in list_1:
         ket_qua = '('
-        ket_qua = ket_qua + item + ' : ' + str(len(item)) +')'
+        ket_qua = ket_qua + item + ' : ' + str(len(item)) + ')'
         print(ket_qua)
 
 

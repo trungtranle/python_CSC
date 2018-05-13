@@ -1,8 +1,8 @@
 def kiem_tra_chuoi(string):
     string_list = list(string)
     vowel = ['a', 'e', 'i', 'o', 'u']
-    not_appear =[]
-    for i in range(0,5):
+    not_appear = []
+    for i in range(0, 5):
         if vowel[i] in string_list:
             not_appear.append(i+1)
         else:
@@ -14,6 +14,7 @@ def kiem_tra_chuoi(string):
     if result == 'Còn thiếu nguyên âm ':
         result = 'Tìm thấy tất cả nguyên âm'
     return result
+
 
 st = 'This is a cat'
 print(kiem_tra_chuoi(st))
