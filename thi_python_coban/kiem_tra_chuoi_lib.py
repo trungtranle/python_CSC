@@ -15,6 +15,7 @@ def kiem_tra_chuoi(string):
         result = 'Tìm thấy tất cả nguyên âm'
     return result
 
-
+'''
 st = 'This is a cat'
 print(kiem_tra_chuoi(st))
+'''
