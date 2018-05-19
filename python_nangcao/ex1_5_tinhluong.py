@@ -13,3 +13,4 @@ print('Phụ cấp: ', format(nhanvien.phucap, ",d"))
 print('Thu nhập:', format(nhanvien.thu_nhap,",f"))
 print('Thuế: ', format((nhanvien.tinh_thue()),",.0f"))
 print('Thực lĩnh', format((nhanvien.tinh_thuc_linh()),",.0f"))
+
