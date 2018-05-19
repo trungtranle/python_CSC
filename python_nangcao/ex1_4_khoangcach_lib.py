@@ -13,13 +13,13 @@ def tinh_khoang_cach(A, B):
 
 
 def tinh_dien_tich_hinh_tron(A, B):
-    radius = tinh_khoang_cach(A, B) / 2
+    radius = tinh_khoang_cach(A, B)
     area = math.pi * (radius ** 2)
     return area
 
 
 def tinh_chu_vi_hinh_tron(A, B):
-    diameter = tinh_khoang_cach(A, B)
+    diameter = tinh_khoang_cach(A, B) * 2
     circumfrence = math.pi * diameter
     return circumfrence
 
