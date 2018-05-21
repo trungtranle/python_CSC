@@ -2,9 +2,5 @@
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.linting.pep8Enabled": false,
-<<<<<<< HEAD
     "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe"
-=======
-    "python.pythonPath": "C:\\Program Files (x86)\\python.exe"
->>>>>>> 3de4ce71606d0f7d5106a0dd2e81169137e82e42
 }

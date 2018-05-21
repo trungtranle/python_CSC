@@ -11,4 +11,11 @@ A = Diem(x_a, y_a)
 B = Diem(x_b, y_b)
 C = Diem(x_c, y_c)
 
-AB = 
+AB = tinh_khoang_cach(A,B)
+BC = tinh_khoang_cach(B, C)
+CA = tinh_khoang_cach(C, A)
+
+print('AB = ', AB)
+print('BC = ', BC)
+print('CA = ', CA)
+
