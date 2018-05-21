@@ -23,4 +23,3 @@ print('Diện tích hình tròn', round(area, 2))
 print('Chu vi hình tròn', round(circumfrence, 2))
 print('Diện tích hình chữ nhật', area_hcn)
 print('Chu vi hình chữ nhật', perimeter)
-'''
