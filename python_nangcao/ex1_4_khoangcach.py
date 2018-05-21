@@ -8,11 +8,11 @@ y_b = eval(input('Nhập B(y) = '))
 A = Diem(x_a, y_a)
 B = Diem(x_b, y_b)
 
-'''
+
 khoang_cach = tinh_khoang_cach(A, B)
 
-print ('Khoảng cách = ', round(khoang_cach,))
-'''
+print ('Khoảng cách = ', round(khoang_cach,2))
+
 area = tinh_dien_tich_hinh_tron(A, B)
 circumfrence = tinh_chu_vi_hinh_tron(A, B)
 
