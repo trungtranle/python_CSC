@@ -20,7 +20,7 @@ class Donhang(object):
         self.ngaydat = ngaydat
         self.trangthai = trangthai
         self.xuathoadon = xuathoadon
-        if self.xuathoadon == True:
+        if self.xuathoadon:
             self.thue = 10/100
         else:
             self.thue = 0
