@@ -6,10 +6,21 @@ class Nhanvien(object):
         self.heso = heso
         self.songuoi = songuoi
         self.phucap = phucap
-        self.thu_nhap = heso * Nhanvien.canban + phucap
+        
+
+    def tinh_thu_nhap(self):
+        thu_nhap = self.heso * Nhanvien.canban + self.phucap
+        return thu_nhap
+
+    def tinh_thu_nhap_chiu_thue(self):
+        chiuthue = Nhanvien.tinh_thu_nhap(self) - 9000000 - self.songuoi * 3600000
+        if chiuthue > 0:
+            return chiuthue
+        else: 
+            return 0
 
     def tinh_thue(self):
-        chiuthue = self.thu_nhap - 9000000 - self.songuoi * 3600000
+        chiuthue = Nhanvien.tinh_thu_nhap_chiu_thue(self)
         muc1 = 5/100
         muc2 = 10/100
         muc3 = 15/100
@@ -67,5 +78,5 @@ class Nhanvien(object):
         return thue
 
     def tinh_thuc_linh(self):
-        thuc_linh = self.thu_nhap - Nhanvien.tinh_thue(self)
+        thuc_linh = Nhanvien.tinh_thu_nhap(self) - Nhanvien.tinh_thue(self)
         return thuc_linh
