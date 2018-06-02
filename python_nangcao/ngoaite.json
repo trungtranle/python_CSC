@@ -1,0 +1,108 @@
+{
+    "items": [
+        {
+            "type": "AUD",
+            "imageurl": "AUD",
+            "muatienmat": "17270",
+            "muack": "17320",
+            "bantienmat": "17480",
+            "banck": "17480"
+        },
+        {
+            "type": "CAD",
+            "imageurl": "CAD",
+            "muatienmat": "17560",
+            "muack": "17590",
+            "bantienmat": "17750",
+            "banck": "17750"
+        },
+        {
+            "type": "CHF",
+            "imageurl": "CHF",
+            "muatienmat": "22670",
+            "muack": "22830",
+            "bantienmat": "23040",
+            "banck": "23040"
+        },
+        {
+            "type": "CNY",
+            "imageurl": "CNY",
+            "muatienmat": "3000",
+            "muack": "3000",
+            "bantienmat": "3500",
+            "banck": "3500"
+        },
+        {
+            "type": "EUR",
+            "imageurl": "EUR",
+            "muatienmat": "26530",
+            "muack": "26590",
+            "bantienmat": "26830",
+            "banck": "26830"
+        },
+        {
+            "type": "GBP",
+            "imageurl": "GBP",
+            "muatienmat": "30100",
+            "muack": "30160",
+            "bantienmat": "30440",
+            "banck": "30440"
+        },
+        {
+            "type": "HKD",
+            "imageurl": "HKD",
+            "muatienmat": "2540",
+            "muack": "2890",
+            "bantienmat": "2930",
+            "banck": "2930"
+        },
+        {
+            "type": "JPY",
+            "imageurl": "JPY",
+            "muatienmat": "199.9",
+            "muack": "200.7",
+            "bantienmat": "202.5",
+            "banck": "202.5"
+        },
+        {
+            "type": "NZD",
+            "imageurl": "NZD",
+            "muatienmat": "",
+            "muack": "15860",
+            "bantienmat": "",
+            "banck": "16150"
+        },
+        {
+            "type": "SGD",
+            "imageurl": "SDG",
+            "muatienmat": "16730",
+            "muack": "16760",
+            "bantienmat": "16950",
+            "banck": "16920"
+        },
+        {
+            "type": "THB",
+            "imageurl": "THB",
+            "muatienmat": "650",
+            "muack": "670",
+            "bantienmat": "700",
+            "banck": "700"
+        },
+        {
+            "type": "USD",
+            "imageurl": "USD",
+            "muatienmat": "22680",
+            "muack": "22680",
+            "bantienmat": "22750",
+            "banck": "22750"
+        },
+        {
+            "type": "XAU",
+            "imageurl": "XAU",
+            "muatienmat": "3632000",
+            "muack": "3632000",
+            "bantienmat": "3652000",
+            "banck": "3632000"
+        }
+    ]
+}

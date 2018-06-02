@@ -13,7 +13,15 @@ class GiaoDich(object):
         return thanh_tien
 
     giao_dich_list = []
-
+    giao_dich_dict = {}
+    '''
+    def them_vao_dict(self):
+        GiaoDich.giao_dich_dict[self.magiaodich] = [{'Ngày giao dịch': self.ngaygiaodich,
+                                                     'Loại tiền': self.loaitien,
+                                                     'Số lượng': self.soluong,
+                                                     'Đơn giá': self.dongia,
+                                                     '']
+    '''
     def them_vao_danh_sach(self):
         gd = str(self.magiaodich) + ' - ' + str(self.ngaygiaodich) + ' - ' + self.loaitien + ' - ' + \
             str(self.soluong) + ' - ' + str(self.dongia) + \
